@@ -82,31 +82,6 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.top-bar {
-  background: linear-gradient(90deg, var(--color-blue-dark), var(--color-blue));
-  color: var(--color-white);
-  padding: 14px 0;
-}
-
-.top-bar-content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  align-items: center;
-}
-
-.top-bar-item {
-  text-align: center;
-  font-weight: 700;
-  font-size: 0.98rem;
-  padding: 10px 12px;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.top-bar-item:last-child {
-  border-right: none;
-}
-
 .hero {
   position: relative;
   padding: 140px 0 110px;
